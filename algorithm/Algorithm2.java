@@ -1,4 +1,4 @@
-package javaStudy4;
+package algorithm;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package javaStuby5;
+package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

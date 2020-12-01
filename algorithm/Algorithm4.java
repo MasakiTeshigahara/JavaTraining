@@ -1,4 +1,4 @@
-package javaStudy6;
+package algorithm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
