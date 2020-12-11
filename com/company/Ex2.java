@@ -15,25 +15,11 @@ public class Ex2 {
         Student jiro = new Student("Jiro", 67, 45, 50, 57);
 
         // Let's coding!
-      int[] scores = {80, 75, 67};
-      int[] scores1 = {70, 90, 50};
-      int[] scores2 = {55, 87, 50};
-      int[] scores3 = {23, 55, 57};
-
     }
 
-    private static int average(int[] scores, int[] scores1, int[] scores2, int[] scores3 ) {
+    private static int average(int[] scores) {
         int total = 0;
         for (int i = 0; i < scores.length; i++) {
-            total += scores[i];
-        }
-        for (int i = 0; i < scores1.length; i++) {
-            total += scores[i];
-        }
-        for (int i = 0; i < scores2.length; i++) {
-            total += scores[i];
-        }
-        for (int i = 0; i < scores3.length; i++) {
             total += scores[i];
         }
         return total / scores.length;
@@ -53,11 +39,16 @@ public class Ex2 {
             this.sienceScore = si;
             this.socialScore = so;
 
-            System.out.println("国語の平均点は:" + jp);
-            System.out.println("数学の平均点は:" + math);
-            System.out.println("理科の平均点は:" + si);
-            System.out.println("社会の平均点は:" + so);
+            int[] a = {80,75,67};
+            System.out.println("国語の平均点;" + average(a));
+            int[] b = {70,90,45};
+            System.out.println("数学の平均点;" + average(b));
+            int[] c = {55,87,50};
+            System.out.println("理科の平均点;" + average(c));
+            int[] d = {23,55,57};
+            System.out.println("社会の平均点;" + average(d));
         }
+
 
     }
 }
