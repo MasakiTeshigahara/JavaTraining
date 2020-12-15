@@ -15,15 +15,15 @@ public class Ex2 {
 		Student jiro = new Student("Jiro", 67, 45, 50, 57);
 
 		// Let's coding!
-		int[] A = {taro.japaneseScore, hanako.japaneseScore, jiro.japaneseScore};
-		int[] B = {taro.mathScore, hanako.mathScore, jiro.mathScore};
-		int[] C = {taro.sienceScore,hanako.sienceScore,jiro.sienceScore};
-		int[] D = {taro.socialScore,hanako.socialScore,jiro.socialScore};
+		int[] averageJpScore = {taro.japaneseScore, hanako.japaneseScore, jiro.japaneseScore};
+		int[] averageMathScore = {taro.mathScore, hanako.mathScore, jiro.mathScore};
+		int[] averageSiScore = {taro.sienceScore,hanako.sienceScore,jiro.sienceScore};
+		int[] averageSoScore = {taro.socialScore,hanako.socialScore,jiro.socialScore};
 
-		System.out.println("国語の平均点;" + average(A));
-		System.out.println("数学の平均点;" + average(B));
-		System.out.println("理科の平均点;" + average(C));
-		System.out.println("社会の平均点;" + average(D));
+		System.out.println("国語の平均点;" + average(averageJpScore));
+		System.out.println("数学の平均点;" + average(averageMathScore));
+		System.out.println("理科の平均点;" + average(averageSiScore));
+		System.out.println("社会の平均点;" + average(averageSoScore));
 
 
 	}

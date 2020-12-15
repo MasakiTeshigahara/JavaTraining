@@ -7,9 +7,7 @@ public class Ex1_2 {
         // 注. personインスタンスのnameフィールドを使用すること
 
         // Let's coding!
-        Person peaple = new Person();
-        peaple.aisatu();
-        
+    	System.out.println("こんにちは、"+ person.name + "さん");
     }
 
     static class Person {
@@ -17,9 +15,5 @@ public class Ex1_2 {
         Person() {
             this.name = "山田";
         }
-        
-        public void aisatu() {
-        	System.out.println("こんにちは、"+ name + "さん");
-    	}
     }
 }
