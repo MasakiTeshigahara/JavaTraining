@@ -24,11 +24,11 @@ public class Ex1_3 {
             this.color = "white";
         }
 
-      //
-      //
-      //
-      //
-        
+      public void run() {
+    	  String carName = "Prius";
+    	    System.out.println("A " + carName +" is running.");
+      }
+
     }
 
     public static abstract class Car {
