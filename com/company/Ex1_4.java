@@ -11,26 +11,19 @@ public class Ex1_4 {
 		A Prius is running.
 		A Prius stopped.
 		 */
-		Prius prius = new Prius("Prius", 80, "White");
+		Prius prius = new Prius();
 		System.out.println("This " + prius.color + " car is " + prius.name + ".");
 		System.out.println(prius.name + " can drive at " + prius.speed + " km.");
 		prius.run();
 		prius.stop();
-		prius.name = "prius";
 
 	}
 
 	public static class Prius extends Car {
 
 		// Let's coding.
-		String name;
-		int speed;
-		String color;
-
-		public Prius(String name, int speed, String color) {
-			this.name = "Prius";
-			this.speed = 80;
-			this.color = "White";
+		public Prius() {
+			super("Prius", 80, "White");
 		}
 
 		@Override
@@ -49,6 +42,13 @@ public class Ex1_4 {
 		String name;
 		int speed;
 		String color;
+
+		public Car(String name, int speed, String color) {
+			this.name = name;
+			this.speed = speed;
+			this.color = color;
+
+		}
 
 		public abstract void run();
 
