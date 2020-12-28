@@ -19,11 +19,11 @@ public class Ex3 {
 		String[] strArray = str.split("");
 
 		//String型をint型に変換
-		int first1 = Integer.parseInt(strArray[0]);
-		int second1 = Integer.parseInt(strArray[1]);
-		int third1 = Integer.parseInt(strArray[2]);
+		int first = Integer.parseInt(strArray[0]);
+		int second = Integer.parseInt(strArray[1]);
+		int third = Integer.parseInt(strArray[2]);
 
-		System.out.println(first1 + second1 + third1);
+		System.out.println(first + second + third);
 
 	}
 }
